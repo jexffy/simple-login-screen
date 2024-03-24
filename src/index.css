@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #B4B8AB;
+}
+
+.form-container {
+  width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #F4F9E9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    width: 90%;
+  }
+}
